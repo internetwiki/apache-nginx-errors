@@ -1,0 +1,16 @@
+[Wed Feb 10 01:09:29.595626 2021] [core:notice] [pid 5040:tid 46978991481920] SELinux policy enabled; httpd running as context system_u:system_r:unconfined_service_t:s0
+[Wed Feb 10 01:09:29.608925 2021] [:notice] [pid 5040:tid 46978991481920] ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/) configured.
+[Wed Feb 10 01:09:29.608949 2021] [:notice] [pid 5040:tid 46978991481920] ModSecurity: APR compiled version="1.7.0"; loaded version="1.7.0"
+[Wed Feb 10 01:09:29.608959 2021] [:notice] [pid 5040:tid 46978991481920] ModSecurity: PCRE compiled version="8.32 "; loaded version="8.32 2012-11-30"
+[Wed Feb 10 01:09:29.608967 2021] [:notice] [pid 5040:tid 46978991481920] ModSecurity: LUA compiled version="Lua 5.1"
+[Wed Feb 10 01:09:29.608974 2021] [:notice] [pid 5040:tid 46978991481920] ModSecurity: YAJL compiled version="2.0.4"
+[Wed Feb 10 01:09:29.608981 2021] [:notice] [pid 5040:tid 46978991481920] ModSecurity: LIBXML compiled version="2.9.7"
+[Wed Feb 10 01:09:29.608988 2021] [:notice] [pid 5040:tid 46978991481920] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+[Wed Feb 10 01:09:29.611715 2021] [suexec:notice] [pid 5040:tid 46978991481920] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Feb 10 01:09:29.705545 2021] [mpm_worker:notice] [pid 5063:tid 46978991481920] AH00292: Apache/2.4.46 (cPanel) OpenSSL/1.1.1i mod_bwlimited/1.4 configured -- resuming normal operations
+[Wed Feb 10 01:09:29.705625 2021] [core:notice] [pid 5063:tid 46978991481920] AH00094: Command line: '/usr/sbin/httpd'
+
+2021/02/10 01:09:11 [error] 2292#2292: *9 access forbidden by rule, client: ::ffff:83.137.6.171, server: localhost, request: "GET / HTTP/2.0", host: "example.com"
+2021/02/10 01:09:11 [error] 2292#2292: *9 access forbidden by rule, client: ::ffff:83.137.6.171, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "example.com", referrer: "https://example.com/"
+2021/02/10 01:09:14 [error] 2292#2292: *9 access forbidden by rule, client: ::ffff:83.137.6.171, server: localhost, request: "GET / HTTP/2.0", host: "example.com"
+2021/02/10 01:09:14 [error] 2292#2292: *9 access forbidden by rule, client: ::ffff:83.137.6.171, server: localhost, request: "GET /favicon.ico HTTP/2.0", host: "example.com", referrer: "https://example.com/"
